@@ -10,7 +10,11 @@ const ProductItem = (props) => {
   const { title, price, description, id } = props;
 
   const addToCartHandler = () => {
-      dispatchFn(CartActions.addItemToCart({id,price,title}))
+      dispatchFn(CartActions.addItemToCart(
+          {id,
+            price,
+            title}
+      ))
   };
 
 
