@@ -1,5 +1,5 @@
 
-# Shooping Cart - React/Redux
+# Shopping Cart - React/Redux
 
 This module is a fully working shopping cart which is built on React.Js and uses Redux for Application-Wise state management.
 
